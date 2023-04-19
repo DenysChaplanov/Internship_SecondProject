@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tic_tac_toe"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="72sp"
+            />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="72sp"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_game"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
